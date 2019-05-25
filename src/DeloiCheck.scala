@@ -9,7 +9,7 @@ object DeloiCheck extends App {
   
     case class Record(Country:String, value1: Int, value2: Int, value3: Int, value4:Int, value5: Int)
     case class CombinedRecord(Country:String, value: String)
-  
+  //
   def mapper(line:String): Record = {
     val fields = line.split(',')  
     
